@@ -1,0 +1,9 @@
+name: InventoryClear
+description: Custom inventory clear plugin with confirmation GUI.
+author: Amelia
+version: 1.0.0
+main: me.amelia.inventoryclear.Main
+commands:
+  clear:
+    usage: /<command>
+    description: Clear your inventory with a confirmation GUI.

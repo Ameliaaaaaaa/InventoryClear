@@ -1,0 +1,4 @@
+Permission: 'inventoryclear.clear'
+Messages:
+  Cleared: '&l&c(!) &r&cCleared all inventory items from &r{PLAYER}&c.'
+  NoPermission: '&l&c(!) &r&cYou do not have the permission &4{PERMISSION} &cto use this command.'
