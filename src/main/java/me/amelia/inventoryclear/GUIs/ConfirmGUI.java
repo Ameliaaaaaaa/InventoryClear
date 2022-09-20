@@ -74,9 +74,7 @@ public class ConfirmGUI implements Listener {
             player.sendMessage(ChatColor.translateAlternateColorCodes('&', this.plugin.getConfig().getString("Messages.Cleared").replace("{PLAYER}", player.getDisplayName())));
         }
 
-        if (event.getRawSlot() == 5) {
-            player.closeInventory();
-        }
+        if (event.getRawSlot() == 5) player.closeInventory();
     }
 
     @EventHandler
